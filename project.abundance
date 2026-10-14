@@ -29,6 +29,22 @@
       ]
     },
     {
+      "atomType": "Extrude",
+      "x": 0.6,
+      "y": 0.7,
+      "uniqueID": "id-15",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "Output",
       "x": 1,
       "y": 0.5,
@@ -65,6 +81,11 @@
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-11",
+      "ap2ID": "id-15"
+    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-4",
